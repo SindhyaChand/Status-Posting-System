@@ -1,0 +1,33 @@
+<!DOCTYPE>
+<html>
+<head>
+<title> Status Page </title>
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<div id="main">
+<!---this function is used for the printing the header of the form-->
+<h2>Status Posting System</h2>
+
+<!---this form is used for the searching input status by using a get method-->
+
+<form name="searchstatusform" action="searchstatusprocess.php" method="get">
+
+<!---this method used for creating a feildset box-->
+<fieldset>
+<legend>Status Form</legend>
+
+<!---this method print the name-->
+<p>Status: <input type="text" name="searchStatus" required/>
+
+<input type="submit" value="View Status"/></p>
+
+</fieldset>
+</form>
+
+<!---adding a home page link in a style through the span -->
+<p><span class="alighleft"><a href="index.html">Return to Home Page</a></span></p>
+
+</div>
+</body>
+</html>
